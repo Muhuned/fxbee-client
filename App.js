@@ -1,5 +1,12 @@
 import React from 'react';
-const App = () => {
-  return <h1>Welcome to FXBee</h1>;
-};
+
+function App() {
+  return (
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>Welcome to FXBee.org 🐝</h1>
+      <p>This is your deployed React frontend. You're live!</p>
+    </div>
+  );
+}
+
 export default App;
