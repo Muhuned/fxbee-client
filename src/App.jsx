@@ -3,7 +3,6 @@ import React from 'react';
 export default function App() {
   return (
     <main className="min-h-screen bg-white text-gray-900 p-6">
-       className="min-h-screen bg-white text-gray-900 p-6">
       <section className="text-center max-w-4xl mx-auto mt-20">
         <h1 className="text-5xl font-bold mb-4">
           Smarter Trading Takes Flight with <span className="text-yellow-500">FXBee</span>
@@ -101,10 +100,6 @@ export default function App() {
           Subscribe
         </button>
       </section>
-    </main>
-  );
-}
-
     </main>
   );
 }
