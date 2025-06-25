@@ -31,6 +31,14 @@ export default function App() {
         </a>
       </section>
 
+      <section className="flex justify-center items-center mt-20">
+        <img
+          src="/assets/bee-logo-yellow.png"
+          alt="Bee Icon"
+          className="w-24 h-24 animate-bounce"
+        />
+      </section>
+
       <section className="mt-24 max-w-3xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-4 text-center text-[#222222] font-['Poppins']">About FXBee</h2>
         <p className="text-lg mb-4 text-[#555555]">
