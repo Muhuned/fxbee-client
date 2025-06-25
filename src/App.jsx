@@ -1,5 +1,5 @@
 import React from 'react';
-import beeLogo from './assets/bee-logo-yellow.png'; // Ensure this path is correct and image exists
+import beeLogo from './assets/bee-logo-yellow.png'; // Make sure the image exists at this path
 
 export default function App() {
   return (
@@ -33,7 +33,7 @@ export default function App() {
 
       <section className="flex justify-center items-center mt-20">
         <img
-          src="/assets/bee-logo-yellow.png"
+          src={beeLogo}
           alt="Bee Icon"
           className="w-24 h-24 animate-bounce"
         />
