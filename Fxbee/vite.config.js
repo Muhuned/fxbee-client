@@ -5,6 +5,11 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
-    target: 'esnext'
+    target: 'esnext',
+    minify: true,
+    sourcemap: false
+  },
+  server: {
+    port: 3000
   }
 });
