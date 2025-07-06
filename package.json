@@ -1,15 +1,15 @@
 {
-  "name": "fxbee",
+  "name": "fxbee-website",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "serve": "vite preview"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.2",
-    "vite": "^5.0.10",
-    "postcss": "^8.4.30",
-    "autoprefixer": "^10.4.15"
+    "vite": "^4.3.9",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14"
   }
 }
